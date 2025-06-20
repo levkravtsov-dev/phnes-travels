@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta
+			name="description"
+			content="Explore amazing travel destinations with Phnes Travels. Book flights, hotels and experiences worldwide."
+		/>
+		<meta name="robots" content="index, follow" />
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/media.css" />
+
+		<!-- swiper.js -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<title>Phnes Travels | Explore. Book. Enjoy.</title>
+	</head>
+
+	<body>
+		<header class="header section">
+			<div class="header__container">
+				<div class="header__inner">
+					<div class="header__logo">
+						<a href="#"
+							><img src="/images/logo.svg" alt="Phnes Travels logo"
+						/></a>
+					</div>
+
+					<nav class="nav">
+						<div
+							class="close-btn"
+							id="cross"
+							aria-label="Close menu"
+							role="button"
+							tabindex="0"
+						>
+							✖
+						</div>
+						<ul class="header__list">
+							<li class="header__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Home</a
+								>
+							</li>
+							<li class="header__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Flights</a
+								>
+							</li>
+							<li class="header__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Hotels</a
+								>
+							</li>
+							<li class="header__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Discover</a
+								>
+							</li>
+							<li class="header__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>About Us</a
+								>
+							</li>
+							<li class="header__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Contact</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<div class="overlay" id="overlay"></div>
+
+					<div class="header__form">
+						<div class="header__login">
+							<a href="#" onclick="return false;" aria-disabled="true">Login</a>
+						</div>
+						<div class="header__sign-up">
+							<a href="#" onclick="return false;" aria-disabled="true"
+								>Sign up</a
+							>
+						</div>
+						<div
+							class="burger"
+							id="burger"
+							aria-label="Open navigation menu"
+							role="button"
+							tabindex="0"
+						>
+							&#9776;
+						</div>
+					</div>
+				</div>
+
+				<!-- hero section -->
+				<section class="hero">
+					<div class="hero__main">
+						<h1 class="hero__header">Don’t call it a dream. Call it a plan</h1>
+						<p class="hero__descr">
+							Travel the way you wish to go with Phnes Travels helping you
+							discover, live and travel at your own pace.
+						</p>
+					</div>
+					<!-- hero  form -->
+					<form class="hero__form">
+						<input type="text" class="hero__form-from" placeholder="From" />
+						<input type="text" class="hero__form-to" placeholder="To" />
+						<input
+							type="text"
+							class="hero__form-date"
+							placeholder="Date of stay"
+						/>
+						<input
+							type="text"
+							class="hero__form-traveler"
+							placeholder="Traveler - Class"
+						/>
+						<button class="hero__form-btn">Find trip now</button>
+					</form>
+				</section>
+			</div>
+		</header>
+
+		<!-- section about -->
+		<section class="about section" aria-label="About Phnes Travels">
+			<div class="about__container">
+				<div class="about__inner">
+					<div class="about-photos">
+						<img
+							src="images/home_about.jpg"
+							alt="Mountains, cities, and people in a travel collage"
+							loading="lazy"
+						/>
+					</div>
+					<div class="about-info">
+						<p class="about__subtitle">About</p>
+						<h2 class="about__info-title">Plan your perfect trip</h2>
+						<p class="about__info-descr">
+							Are you looking for an adventurous travel, or just carrying your
+							work alongside you while you travel and explore new places, then
+							your perfect trip is one with us, Phnes travels help you search
+							flights & places, book your most convenient hotels/places at your
+							comfort while we help you discover the world. Welcome to a new
+							dispensation.
+						</p>
+						<div class="about__info-numbers">
+							<dl class="about__info-numbers-item">
+								<dt class="about__item-number">
+									<span class="counter" data-target="150">0</span>+
+								</dt>
+								<dd class="about__item-text">Flight Destinations</dd>
+							</dl>
+							<dl class="about__info-numbers-item">
+								<dt class="about__item-number">
+									<span class="counter" data-target="250">0</span>+
+								</dt>
+								<dd class="about__item-text">Hotels</dd>
+							</dl>
+							<dl class="about__info-numbers-item">
+								<dt class="about__item-number">
+									<span class="counter" data-target="80">0</span>+
+								</dt>
+								<dd class="about__item-text">Elite Transportation</dd>
+							</dl>
+							<dl class="about__info-numbers-item">
+								<dt class="about__item-number">
+									<span class="counter" data-target="40">0</span>+
+								</dt>
+								<dd class="about__item-text">
+									We help to find your dream place
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- section places -->
+		<section class="places section" aria-label="Top travel destinations">
+			<div class="places__container">
+				<div class="places__inner">
+					<div class="places__head">
+						<div class="places__head-text">
+							<p class="places__subtitle">Top Destinations</p>
+							<h2 class="places__title">Discover your love</h2>
+						</div>
+						<a
+							href="#"
+							class="places__head-btn"
+							title="View all destinations"
+							onclick="return false;"
+							aria-disabled="true"
+							>See all</a
+						>
+					</div>
+					<div class="places__main">
+						<!-- 1 -->
+						<article class="places__main-item">
+							<div class="places__item-img">
+								<img
+									src="images/phuket.jpg"
+									alt="Phuket, Thailand"
+									loading="lazy"
+								/>
+								<a
+									class="places__more-link"
+									href="#"
+									onclick="return false;"
+									aria-disabled="true"
+									>Explore more</a
+								>
+							</div>
+							<div class="places__item-text">
+								<div class="places__item-info">
+									<h3 class="places__item-title">Phuket</h3>
+									<div class="places__item-location">
+										<div class="places__location-icon">
+											<img
+												src="images/subtract.svg"
+												alt="map icon"
+												aria-hidden="true"
+												loading="lazy"
+											/>
+										</div>
+										<div class="places__location-text">Thailand</div>
+									</div>
+								</div>
+								<div class="places__item-reviews">
+									<div class="places__reviews-1">
+										<img
+											src="images/review-1.png"
+											alt="photo of woman's account"
+											loading="lazy"
+										/>
+									</div>
+									<div class="places__reviews-2">
+										<img
+											src="images/review-2.png"
+											alt="photo of man's account"
+											loading="lazy"
+										/>
+									</div>
+									<div class="places__reviews-more">+10</div>
+								</div>
+							</div>
+						</article>
+						<!-- 2 -->
+						<article class="places__main-item">
+							<div class="places__item-img">
+								<img
+									src="images/santorini.jpg"
+									alt="Santorini, Greece"
+									loading="lazy"
+								/>
+								<a
+									class="places__more-link"
+									href="#"
+									onclick="return false;"
+									aria-disabled="true"
+									>Explore more</a
+								>
+							</div>
+							<div class="places__item-text">
+								<div class="places__item-info">
+									<h3 class="places__item-title">Santorini</h3>
+									<div class="places__item-location">
+										<div class="places__location-icon">
+											<img
+												src="images/subtract.svg"
+												alt="map icon"
+												aria-hidden="true"
+												loading="lazy"
+											/>
+										</div>
+										<div class="places__location-text">Greece</div>
+									</div>
+								</div>
+								<div class="places__item-reviews">
+									<div class="places__reviews-1">
+										<img
+											src="images/review-1.png"
+											alt="photo of woman's account"
+											loading="lazy"
+										/>
+									</div>
+									<div class="places__reviews-2">
+										<img
+											src="images/review-2.png"
+											alt="photo of man's account"
+											loading="lazy"
+										/>
+									</div>
+									<div class="places__reviews-more">+10</div>
+								</div>
+							</div>
+						</article>
+						<!-- 3 -->
+						<article class="places__main-item">
+							<div class="places__item-img">
+								<img
+									src="images/paris.jpg"
+									alt="Paris, France"
+									loading="lazy"
+								/>
+								<a
+									class="places__more-link"
+									href="#"
+									onclick="return false;"
+									aria-disabled="true"
+									>Explore more</a
+								>
+							</div>
+							<div class="places__item-text">
+								<div class="places__item-info">
+									<h3 class="places__item-title">Paris</h3>
+									<div class="places__item-location">
+										<div class="places__location-icon">
+											<img
+												src="images/subtract.svg"
+												alt="map icon"
+												aria-hidden="true"
+												loading="lazy"
+											/>
+										</div>
+										<div class="places__location-text">France</div>
+									</div>
+								</div>
+								<div class="places__item-reviews">
+									<div class="places__reviews-1">
+										<img
+											src="images/review-1.png"
+											alt="photo of woman's account"
+											loading="lazy"
+										/>
+									</div>
+									<div class="places__reviews-2">
+										<img
+											src="images/review-2.png"
+											alt="photo of man's account"
+											loading="lazy"
+										/>
+									</div>
+									<div class="places__reviews-more">+10</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- section book -->
+		<section
+			class="book section"
+			aria-label="Booking options: Flights and Hotels"
+		>
+			<div class="book__container">
+				<div class="book__inner">
+					<article class="book__flight">
+						<h3 class="book__title">Flights</h3>
+						<p class="book__text">
+							Search flights & places and book for your amazing trips.
+						</p>
+						<div class="book__btn">
+							<svg
+								class="icon-show"
+								width="15"
+								height="14"
+								viewBox="0 0 15 14"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M13.9033 0.0397949C14.0402 0.0691531 14.1657 0.138097 14.2646 0.237061C14.3636 0.336421 14.432 0.462199 14.4609 0.599365C14.4899 0.736587 14.4781 0.87962 14.4277 1.0105V1.01147L9.69629 13.5085C9.64057 13.6472 9.54483 13.7659 9.4209 13.8494C9.29663 13.9329 9.14973 13.9772 9 13.9763H8.96973C8.67418 13.963 8.42916 13.7655 8.33203 13.4841H8.33105C8.32906 13.4787 8.3279 13.4733 8.32617 13.4675L8.3252 13.4656L6.49219 9.17163C6.46877 9.09271 6.46681 9.00871 6.48535 8.92847C6.50415 8.8474 6.54393 8.77263 6.60059 8.71167L6.59961 8.71069L13.0166 1.82886C13.0392 1.80621 13.0571 1.77931 13.0693 1.74976C13.0816 1.72011 13.0879 1.68809 13.0879 1.65601C13.0879 1.62415 13.0815 1.59269 13.0693 1.56323C13.0571 1.53358 13.0393 1.50585 13.0166 1.48315C12.994 1.46056 12.967 1.44269 12.9375 1.43042C12.9079 1.41816 12.8758 1.41189 12.8438 1.41187C12.8117 1.41187 12.7797 1.41814 12.75 1.43042C12.7353 1.43652 12.7212 1.44408 12.708 1.45288L12.6709 1.48315L5.78516 7.89917C5.7242 7.95582 5.64941 7.9956 5.56836 8.0144C5.50741 8.02848 5.44413 8.03043 5.38281 8.02026L5.32227 8.00659L1.03418 6.17456H1.03223L1.01953 6.17065C0.877658 6.12318 0.753784 6.03231 0.665039 5.91187C0.576511 5.7916 0.526831 5.6471 0.523438 5.4978C0.520128 5.34833 0.563264 5.2011 0.646484 5.0769C0.728591 4.95447 0.846389 4.86052 0.983398 4.8064L0.991211 4.80347L13.4922 0.0720215C13.6231 0.0222322 13.7664 0.0104692 13.9033 0.0397949Z"
+									fill="#276968"
+									stroke="#276968"
+									stroke-width="0.046875"
+								/>
+							</svg>
+
+							<a
+								href="#"
+								class="book__btn-link"
+								onclick="return false;"
+								aria-disabled="true"
+								>Show flights</a
+							>
+						</div>
+					</article>
+					<article class="book__hotel">
+						<h3 class="book__title">Hotels</h3>
+						<p class="book__text">
+							Search hotels & places and book for your amazing trips.
+						</p>
+						<div class="book__btn">
+							<svg
+								class="icon-show"
+								width="15"
+								height="14"
+								viewBox="0 0 15 14"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M13.9033 0.0397949C14.0402 0.0691531 14.1657 0.138097 14.2646 0.237061C14.3636 0.336421 14.432 0.462199 14.4609 0.599365C14.4899 0.736587 14.4781 0.87962 14.4277 1.0105V1.01147L9.69629 13.5085C9.64057 13.6472 9.54483 13.7659 9.4209 13.8494C9.29663 13.9329 9.14973 13.9772 9 13.9763H8.96973C8.67418 13.963 8.42916 13.7655 8.33203 13.4841H8.33105C8.32906 13.4787 8.3279 13.4733 8.32617 13.4675L8.3252 13.4656L6.49219 9.17163C6.46877 9.09271 6.46681 9.00871 6.48535 8.92847C6.50415 8.8474 6.54393 8.77263 6.60059 8.71167L6.59961 8.71069L13.0166 1.82886C13.0392 1.80621 13.0571 1.77931 13.0693 1.74976C13.0816 1.72011 13.0879 1.68809 13.0879 1.65601C13.0879 1.62415 13.0815 1.59269 13.0693 1.56323C13.0571 1.53358 13.0393 1.50585 13.0166 1.48315C12.994 1.46056 12.967 1.44269 12.9375 1.43042C12.9079 1.41816 12.8758 1.41189 12.8438 1.41187C12.8117 1.41187 12.7797 1.41814 12.75 1.43042C12.7353 1.43652 12.7212 1.44408 12.708 1.45288L12.6709 1.48315L5.78516 7.89917C5.7242 7.95582 5.64941 7.9956 5.56836 8.0144C5.50741 8.02848 5.44413 8.03043 5.38281 8.02026L5.32227 8.00659L1.03418 6.17456H1.03223L1.01953 6.17065C0.877658 6.12318 0.753784 6.03231 0.665039 5.91187C0.576511 5.7916 0.526831 5.6471 0.523438 5.4978C0.520128 5.34833 0.563264 5.2011 0.646484 5.0769C0.728591 4.95447 0.846389 4.86052 0.983398 4.8064L0.991211 4.80347L13.4922 0.0720215C13.6231 0.0222322 13.7664 0.0104692 13.9033 0.0397949Z"
+									fill="#276968"
+									stroke="#276968"
+									stroke-width="0.046875"
+								/>
+							</svg>
+
+							<a
+								href="#"
+								class="book__btn-link"
+								onclick="return false;"
+								aria-disabled="true"
+								>Show hotels</a
+							>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- testimonials -->
+		<section
+			class="testimonials section"
+			aria-label="Customer testimonials about Phnes Travels"
+		>
+			<div class="testimonials__container">
+				<div class="testimonials__inner">
+					<div class="testimonials__head">
+						<p class="testimonials__subtitle">Testimonials</p>
+						<h3 class="testimonials__title">What they say about us</h3>
+					</div>
+					<div class="swiper testimonials__swiper">
+						<div class="swiper-wrapper">
+							<!-- 1 -->
+							<article class="swiper-slide testimonials__slider-item">
+								<div class="slider__item-stars">
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+								</div>
+								<p class="slider__item-review">
+									“Perfect prices for the French hotels!”
+								</p>
+								<h4 class="slider__item-name">Ethan Carter</h4>
+							</article>
+							<!-- 2 -->
+							<article class="swiper-slide testimonials__slider-item">
+								<div class="slider__item-stars">
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+								</div>
+								<p class="slider__item-review">
+									“A real sense of community, nurtured” Really appreciate the
+									help and support from the staff during my trips.”
+								</p>
+								<h4 class="slider__item-name">Olivia Brooks</h4>
+							</article>
+							<!-- 3 -->
+							<article class="swiper-slide testimonials__slider-item">
+								<div class="slider__item-stars">
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+								</div>
+								<p class="slider__item-review">
+									“A real sense of community, nurtured” Really appreciate the
+									help and support from the staff during my trips. Very helpful
+									and always available when needed.”
+								</p>
+								<h4 class="slider__item-name">Alice Smith</h4>
+							</article>
+							<!-- 4 -->
+							<article class="swiper-slide testimonials__slider-item">
+								<div class="slider__item-stars">
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+								</div>
+								<p class="slider__item-review">“It was good:)”</p>
+								<h4 class="slider__item-name">Liam Walker</h4>
+							</article>
+							<!-- 5 -->
+							<article class="swiper-slide testimonials__slider-item">
+								<div class="slider__item-stars">
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+									<img
+										src="images/star.svg"
+										alt=""
+										aria-hidden="true"
+										loading="lazy"
+									/>
+								</div>
+								<p class="slider__item-review">
+									“A real sense of community, nurtured” Really appreciate the
+									help and support from the staff during my trips. Very helpful
+									and always available when needed.”
+								</p>
+								<h4 class="slider__item-name">Emma Bennett</h4>
+							</article>
+						</div>
+					</div>
+
+					<div class="testimonials__thumbnails">
+						<img
+							src="images/testimonials_1.png"
+							alt="Ethan Carter"
+							loading="lazy"
+						/>
+						<img
+							src="images/testimonials_2.png"
+							alt="Olivia Brooks"
+							loading="lazy"
+						/>
+						<img
+							src="images/testimonials_3.png"
+							alt="Alice Smith"
+							loading="lazy"
+						/>
+						<img
+							src="images/testimonials_4.png"
+							alt="Liam Walker"
+							loading="lazy"
+						/>
+						<img
+							src="images/testimonials_5.png"
+							alt="Emma Bennett"
+							loading="lazy"
+						/>
+					</div>
+
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- footer -->
+		<footer
+			class="footer section"
+			aria-label="Website footer with links and contact info"
+		>
+			<div class="footer__container">
+				<div class="footer__inner">
+					<div class="footer__icons">
+						<div class="footer__icons-logo">
+							<a
+								href="#"
+								onclick="return false;"
+								aria-disabled="true"
+								aria-label="Phnes Travels homepage"
+							>
+								<img
+									src="images/logo.svg"
+									alt="Phnes Travels logo"
+									loading="lazy"
+								/>
+							</a>
+						</div>
+						<div class="footer__socials">
+							<a
+								href="#"
+								aria-label="Facebook"
+								onclick="return false;"
+								aria-disabled="true"
+								><svg
+									width="22"
+									height="23"
+									viewBox="0 0 22 23"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M0.199219 11.7717C0.199219 17.1411 4.09892 21.606 9.19922 22.5114V14.7111H6.49922V11.7114H9.19922V9.31108C9.19922 6.61108 10.9389 5.11168 13.3995 5.11168C14.1789 5.11168 15.0195 5.23138 15.7989 5.35108V8.11138H14.4192C13.0989 8.11138 12.7992 8.77108 12.7992 9.61168V11.7114H15.6792L15.1995 14.7111H12.7992V22.5114C17.8995 21.606 21.7992 17.142 21.7992 11.7717C21.7992 5.79838 16.9392 0.911377 10.9992 0.911377C5.05922 0.911377 0.199219 5.79838 0.199219 11.7717Z"
+										fill="white"
+									/>
+								</svg>
+							</a>
+							<a
+								href="#"
+								aria-label="YouTube"
+								onclick="return false;"
+								aria-disabled="true"
+								><svg
+									width="24"
+									height="17"
+									viewBox="0 0 24 17"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M23.4987 3.39502C23.3628 2.91025 23.0981 2.47136 22.7327 2.12502C22.357 1.76802 21.8965 1.51265 21.3947 1.38302C19.5167 0.888015 11.9927 0.888016 11.9927 0.888016C8.85599 0.852328 5.72009 1.00929 2.60266 1.35802C2.10085 1.49723 1.64123 1.7583 1.26466 2.11802C0.894664 2.47402 0.626664 2.91302 0.486664 3.39402C0.150357 5.20576 -0.0130439 7.04536 -0.00133594 8.88802C-0.0133359 10.729 0.149664 12.568 0.486664 14.382C0.623664 14.861 0.890664 15.298 1.26166 15.651C1.63266 16.004 2.09466 16.259 2.60266 16.394C4.50566 16.888 11.9927 16.888 11.9927 16.888C15.1333 16.9238 18.2732 16.7668 21.3947 16.418C21.8965 16.2884 22.357 16.033 22.7327 15.676C23.0979 15.3297 23.3623 14.8908 23.4977 14.406C23.8428 12.595 24.0105 10.7546 23.9987 8.91102C24.0246 7.05962 23.857 5.21058 23.4987 3.39402V3.39502ZM9.60066 12.312V5.46502L15.8607 8.88902L9.60066 12.312Z"
+										fill="white"
+									/>
+								</svg>
+							</a>
+							<a
+								href="#"
+								aria-label="Instagram"
+								onclick="return false;"
+								aria-disabled="true"
+								><svg
+									width="21"
+									height="21"
+									viewBox="0 0 21 21"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M10.3967 6.91012C8.5237 6.91012 6.99522 8.43861 6.99522 10.3116C6.99522 12.1845 8.5237 13.713 10.3967 13.713C12.2696 13.713 13.7981 12.1845 13.7981 10.3116C13.7981 8.43861 12.2696 6.91012 10.3967 6.91012ZM20.5985 10.3116C20.5985 8.90302 20.6112 7.50723 20.5321 6.10123C20.453 4.46812 20.0805 3.01874 18.8863 1.82454C17.6895 0.627779 16.2427 0.257779 14.6096 0.178676C13.201 0.0995726 11.8052 0.112331 10.3992 0.112331C8.99067 0.112331 7.59487 0.0995726 6.18887 0.178676C4.55577 0.257779 3.10639 0.630331 1.91218 1.82454C0.715426 3.0213 0.345426 4.46812 0.266323 6.10123C0.187219 7.50978 0.199978 8.90557 0.199978 10.3116C0.199978 11.7176 0.187219 13.1159 0.266323 14.5219C0.345426 16.155 0.717978 17.6044 1.91218 18.7986C3.10894 19.9954 4.55577 20.3654 6.18887 20.4445C7.59743 20.5236 8.99322 20.5108 10.3992 20.5108C11.8078 20.5108 13.2036 20.5236 14.6096 20.4445C16.2427 20.3654 17.692 19.9928 18.8863 18.7986C20.083 17.6018 20.453 16.155 20.5321 14.5219C20.6138 13.1159 20.5985 11.7201 20.5985 10.3116ZM10.3967 15.5452C7.50046 15.5452 5.16308 13.2078 5.16308 10.3116C5.16308 7.41537 7.50046 5.07799 10.3967 5.07799C13.2929 5.07799 15.6303 7.41537 15.6303 10.3116C15.6303 13.2078 13.2929 15.5452 10.3967 15.5452ZM15.8446 6.08592C15.1684 6.08592 14.6223 5.53985 14.6223 4.86364C14.6223 4.18743 15.1684 3.64137 15.8446 3.64137C16.5208 3.64137 17.0669 4.18743 17.0669 4.86364C17.0671 5.02421 17.0356 5.18324 16.9742 5.33162C16.9129 5.48001 16.8229 5.61483 16.7093 5.72837C16.5958 5.84191 16.461 5.93193 16.3126 5.99329C16.1642 6.05464 16.0052 6.08612 15.8446 6.08592Z"
+										fill="white"
+									/>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<nav class="footer__links">
+						<h4 class="footer__list-title">Links</h4>
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Flights</a
+								>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Stays</a
+								>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Discover</a
+								>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>About Us</a
+								>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Contact</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<nav class="footer__activities">
+						<h4 class="footer__list-title">Our Activities</h4>
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Tour</a
+								>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Kayaking</a
+								>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Cruising & Sailing</a
+								>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Multi-activities
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<nav class="footer__about">
+						<h4 class="footer__list-title">About Us</h4>
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Our Story</a
+								>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" onclick="return false;" aria-disabled="true"
+									>Work with us</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer__contact">
+						<h4 class="footer__list-title">Contact</h4>
+						<address class="footer__list">
+							<p>Address: Pe.Holandia No.205A Millennium City, PH17</p>
+							<p>Phone: <a href="tel:0234567890">023 456 7890</a></p>
+							<p>
+								Email:
+								<a href="mailto:phnes.travels@gmail.com"
+									>phnes.travels@gmail.com</a
+								>
+							</p>
+							<p>Maps: Millennium City, Accra</p>
+						</address>
+					</div>
+				</div>
+				<hr class="footer__divider" />
+				<div class="footer__bottom">
+					<p class="footer__copyright">
+						© 2025 Phnes Travels. Layout based on a free Figma Community design.
+						Adapted, developed, and enhanced by
+						<a
+							href="https://github.com/levkravtsov-dev"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Lev Kravtsov</a
+						>
+						– Full-Stack Developer. Available for freelance and remote work.
+					</p>
+					<div class="footer__dev-links">
+						<a
+							href="https://github.com/levkravtsov-dev"
+							target="_blank"
+							aria-label="GitHub profile"
+							rel="noopener noreferrer"
+						>
+							<svg
+								class="footer__dev-icon"
+								width="24"
+								height="24"
+								fill="currentColor"
+								viewBox="0 0 24 24"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.387.6.111.82-.261.82-.577v-2.234c-3.338.726-4.033-1.415-4.033-1.415-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.76-1.605-2.665-.304-5.467-1.332-5.467-5.932 0-1.31.467-2.382 1.235-3.222-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.51 11.51 0 0 1 3-.405c1.02.005 2.045.138 3 .405 2.29-1.552 3.295-1.23 3.295-1.23.655 1.653.243 2.873.12 3.176.77.84 1.233 1.912 1.233 3.222 0 4.61-2.807 5.625-5.48 5.922.43.372.823 1.103.823 2.222v3.293c0 .319.216.694.825.576C20.565 21.796 24 17.298 24 12 24 5.373 18.627 0 12 0z"
+								></path>
+							</svg>
+						</a>
+						<a
+							href="https://www.linkedin.com/in/lev-kravtsov-96a6812b4/"
+							target="_blank"
+							aria-label="LinkedIn profile"
+							rel="noopener noreferrer"
+						>
+							<svg
+								class="footer__dev-icon"
+								width="24"
+								height="24"
+								fill="currentColor"
+								viewBox="0 0 24 24"
+								aria-hidden="true"
+							>
+								<path
+									d="M20.451 20.451h-3.554v-5.569c0-1.328-.026-3.039-1.852-3.039-1.854 0-2.137 1.445-2.137 2.939v5.669h-3.554V9h3.414v1.561h.049c.476-.9 1.637-1.852 3.368-1.852 3.598 0 4.263 2.367 4.263 5.448v6.294zM5.337 7.433c-1.144 0-2.07-.926-2.07-2.07 0-1.145.926-2.071 2.07-2.071s2.07.926 2.07 2.07c0 1.145-.926 2.071-2.07 2.071zm1.777 13.018H3.56V9h3.554v11.451zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.205 24 24 23.227 24 22.271V1.729C24 .774 23.205 0 22.225 0z"
+								></path>
+							</svg>
+						</a>
+						<a
+							href="https://www.upwork.com/freelancers/~0166f57eef68c0685b"
+							target="_blank"
+							aria-label="Upwork profile"
+							rel="noopener noreferrer"
+						>
+							<svg
+								class="footer__dev-icon"
+								width="24"
+								height="24"
+								fill="currentColor"
+								viewBox="0 0 48 48"
+								aria-hidden="true"
+							>
+								<path
+									d="M40.2 8H40a7.8 7.8 0 0 0-7.8 7.8v4.8a13.63 13.63 0 0 1-5.4 11.1 14 14 0 0 1-5.1 2.3 27.3 27.3 0 0 1-1.8-4.3v-14h-6v8.6c0 1.9-.7 2.8-2.1 2.8s-2.1-.9-2.1-2.8V16H2.9v8.4c0 5.2 2.6 8.2 7 8.2a6.4 6.4 0 0 0 5.7-3.3 42.4 42.4 0 0 0 2.3 5.6l1.6 3.1h3.6A20.3 20.3 0 0 0 32.2 28v-12.2a1.8 1.8 0 0 1 3.6 0V32h6.3V15.8A7.8 7.8 0 0 0 40.2 8Z"
+								></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- swiper.js -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="js/swiper.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
