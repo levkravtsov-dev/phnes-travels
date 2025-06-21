@@ -33,6 +33,7 @@ This project was created as a portfolio piece to demonstrate skills in layout, d
 ---
 
 ## 📂 Structure
+<pre>```
 phnes-travels/
 ├── index.html
 ├── css/
@@ -44,6 +45,7 @@ phnes-travels/
 │ └── swiper.js
 ├── images/
 └── README.md
+```</pre>
 
 ---
 
